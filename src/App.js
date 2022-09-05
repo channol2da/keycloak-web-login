@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from "./login";
+import CorsTest from "./cors_test";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="App">
+        {/* cors proxy 테스트 */}
+        {/*
+        <div>
+          <CorsTest />
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+            ===========================
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        */}
+
+        {/* login 추가 */}
+        <div>
+          <Login />
+        </div>
+      </div>
   );
 }
 
